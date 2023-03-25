@@ -1,0 +1,79 @@
+body{
+    background-color: #383844;
+    font-family: 'Mukta', sans-serif;
+}
+
+.div-container{
+    
+    max-width: 700px;
+    margin: auto;
+    background-color: #e6e6e6;
+    width: 100%;
+    padding: 30px;
+}
+
+.div-titlu{
+    color: #383844;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: larger;
+}
+
+.div-formular{
+    width: 100%;;
+}
+
+.camp{
+    margin: 30px;
+    display: flex;
+    align-items: center;
+}
+
+label{
+    width: 200px;
+}
+
+.input{
+    width: 100%;
+    font-family: 'Mukta', sans-serif;
+}
+
+select{
+    max-width: 100%;
+}
+
+#eroare{
+    color: red;
+    margin-left: 30px;
+}
+
+.buton{
+    align-items: center
+    
+}
+
+.myButton {
+    margin-left: 260px;
+    margin-top: 30px;
+	box-shadow: 0px 0px 0px 0px #051401;
+	background-color:#383844;
+	border-radius:3px;
+	border:1px solid #666666;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:13px 66px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #000000;
+}
+.myButton:hover {
+	background-color:#605e87;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
